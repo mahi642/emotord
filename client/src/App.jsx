@@ -4,7 +4,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import LoginPage from "./pages/LoginPage";
-import SigninPage from "./pages/SigninPage";
+import SignupPage from "./pages/SignupPage";
 import Dashboard from "./pages/Dashboard";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
             }
           />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/signin" element={<SigninPage />} />
+          <Route path="/signup" element={<SignupPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </Router>

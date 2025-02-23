@@ -1,0 +1,135 @@
+/* Signup Page Styles */
+.signup-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding: 3px;
+  background-color: #f9faff;
+}
+
+/* Left Section */
+.left-section {
+  width: 50%;
+  background-color: #605bff;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+/* Right Section */
+.right-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Signup Box */
+.signup-box {
+  width: 80%;
+  max-width: 400px;
+}
+
+.signup-header h2 {
+  margin-bottom: 5px;
+}
+
+.signup-header p {
+  color: gray;
+}
+
+/* Social Signup Buttons */
+.social-signup {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 20px;
+  margin-left: -5rem;
+}
+
+.google-btn,
+.apple-btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+/* Form */
+.signup-form-container {
+ 
+  
+  width: 60%;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+form {
+  width:90%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+}
+
+label {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Signup Button */
+.signup-btn {
+  width: 80%;
+  padding: 8px 15px;
+  background-color: #605bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.signup-btn:hover {
+  background-color: #4a47d1;
+}
+
+/* Login Redirect */
+.login-link {
+  margin-top: 15px;
+  text-align: start;
+}
+
+.login-link a {
+  color: #605bff;
+  text-decoration: none;
+}
